@@ -1,80 +1,70 @@
 .main{
-    width: 300px;
-    height: 400px;
+    width: 270px;
+    height: 396px;
     border: 2px solid white;
     background: white;
     position: relative;
 }
 .dogframe {
-    width: 240px;
-    height: 245px;
+    width: 260px;
+    height: 260px;
     text-align: center;
     margin: 0 auto;
-    border: 2px solid#E5E5E5;
+    border: 1px solid#E5E5E5;
     background: white;
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 12px;
 }
 
-.text{
-    display: block;
-    margin-top: 10px;
-    margin-left: 20px;
-
+.dogframe img {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .label{
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: 83px;
+    height: 48px;
+    margin-top: -248px;
+    margin-left: 20px;
 }
 
 .favorite{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 40px;
+    height: 40px;
     top: 0;
     left: 0;
-    margin-top: 10px;
-    margin-left: 220px;
+    margin-top: 28px;
+    margin-left: 222px;
 
 }
 
 .pet{
     position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: -220px;
-    left: 250px;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: -30px;
+    margin-left: 242px;
+
+}
+
+
+.text{
+    display: block;
+    margin-top: 15px;
+    margin-left: 2px;
 
 }
 
 .stars{
     display: block;
-    margin-top: 12px;
-    margin-left: 20px ;
+    margin-top: 18px;
+    margin-left: 5px;
 }
 
 .price{
     display: block;
-    margin-top: 12px;
-    margin-left: 20px ;
-}
-
-.botton{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: -290px;
-    left: 220px;
-    margin-top: 10px;
-    margin-left: 10px;
-
-
+    margin-top: 9px;
+    margin-left: 5px;
 }
